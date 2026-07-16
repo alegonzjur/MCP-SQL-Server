@@ -54,7 +54,7 @@ from sqlalchemy.engine import Engine
 # --------------------------------------------------------------------------
 
 # Variables de entorno
-DB_URL = os.environ.get("DB_URL", "sqlite:///./marvel.db") # Cadena de conexión SQLAlchemy
+DB_URL = os.environ.get("DB_URL", "sqlite:///C:/Users/HP/Desktop/Proyectos/MarvelIntelligenceAssistant/data/processed/marvel.db") # Cadena de conexión SQLAlchemy
 ALLOWED_TABLES_RAW = os.environ.get("ALLOWED_TABLES", "").strip() # Lista separada por comas de tablas permitidas
 ALLOWED_TABLES = (
     {t.strip() for t in ALLOWED_TABLES_RAW.split(",") if t.strip()}
