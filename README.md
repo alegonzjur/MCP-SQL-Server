@@ -87,10 +87,10 @@ Marvel, pero desacoplado del router de LangChain. La idea de portfolio es poder 
 > independiente, reutilizable desde cualquier cliente compatible (Claude Desktop, Claude
 > Code, u otros agentes), no solo desde mi router."
 
-## Reutilización en el proyecto 3 (n8n + MCP + RAG, energía)
+## Reutilización en otros proyectos (n8n + MCP + RAG)
 
-Este mismo servidor (apuntando a una BBDD de producción/precios energéticos en vez de
-Marvel) es la pieza de "datos estructurados en vivo" del proyecto combinado de energía:
+Este mismo servidor (apuntando a otra BBDD  en vez de
+Marvel) es la pieza de "datos estructurados en vivo" de otro proyecto combinado más adelante:
 n8n dispara el flujo, el agente usa este MCP para consultar datos en tiempo real, y un
 componente RAG aporta el contexto documental (informes técnicos, normativa) para el
 análisis final.
