@@ -1,0 +1,4 @@
+mcp
+sqlalchemy
+# Descomentar si se va a conectar contra PostgreSQL en vez de SQLite:
+# psycopg2-binary
